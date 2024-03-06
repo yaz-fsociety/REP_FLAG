@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		C4myGIuPnZAMSMDpi/HtTgu+RFA=
+		ZZdFPi+TfF8RZJ0xBwsNINoOgy4=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		OU6SG1+4TWGXPDkyLb+XFqWdBAI=
+		E1rB1uEKXl2bh5ajxz3Axe9qe1I=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -24,13 +24,69 @@
 		<data>
 		WWJo0ISbfcnBd9/6yGcFNATYWcI=
 		</data>
+		<key>flutter_assets/assets/images/.DS_Store</key>
+		<data>
+		8RCJhmILh/xjsIasp8dJHotEqfQ=
+		</data>
+		<key>flutter_assets/assets/images/F%20logo.png</key>
+		<data>
+		ySLNvuM4rLs6a5N8+UwWBUFa61Y=
+		</data>
 		<key>flutter_assets/assets/images/Flag%20Logo.png</key>
 		<data>
 		kvEQGMYpdsQuGAX+IZoiT/PqiGM=
 		</data>
+		<key>flutter_assets/assets/images/Flag%20Logotype.png</key>
+		<data>
+		4TQOMxHCRXnsdR+CLWoNOXk1tt0=
+		</data>
 		<key>flutter_assets/assets/images/Login%20Image.png</key>
 		<data>
 		FtysjFHThvSxoBv5L9gBOD/NVes=
+		</data>
+		<key>flutter_assets/assets/images/app_icon.png</key>
+		<data>
+		fO/Lc1FUxD8pc9VIqlEMNBts7DE=
+		</data>
+		<key>flutter_assets/assets/images/bien%20etre.png</key>
+		<data>
+		vzYQBmBcioCmr3sz94j4MB/b5AQ=
+		</data>
+		<key>flutter_assets/assets/images/cards/avitane%20massage.png</key>
+		<data>
+		bJKQYIvgJaHF4mcK2E8MyfQDTeI=
+		</data>
+		<key>flutter_assets/assets/images/cards/dragon%20sushi.png</key>
+		<data>
+		kPeAqAHbDBKDqZXrFZXzeoWmxss=
+		</data>
+		<key>flutter_assets/assets/images/cards/harmony%20hotel.png</key>
+		<data>
+		9OQ+zT3Pg44KwPpJjbl1vGDI9TQ=
+		</data>
+		<key>flutter_assets/assets/images/cards/schwartz%20coffee.png</key>
+		<data>
+		Nx7gHTrMZS1RMPqIl7vGTz3n7Tg=
+		</data>
+		<key>flutter_assets/assets/images/event.png</key>
+		<data>
+		CgmVailuxb84HcNSC/kzY9LMFIY=
+		</data>
+		<key>flutter_assets/assets/images/gaming.png</key>
+		<data>
+		u/pcgVmk4T1+FyHzTjL5BoiJ7fI=
+		</data>
+		<key>flutter_assets/assets/images/hotels.png</key>
+		<data>
+		AzsqeYwrd4X4YOU2KNdXX6dnz/I=
+		</data>
+		<key>flutter_assets/assets/images/mode.png</key>
+		<data>
+		Dj0io56Yf6Cikulemer3RVYTeiM=
+		</data>
+		<key>flutter_assets/assets/images/restauration.png</key>
+		<data>
+		Du8+1SuSOb/1W+Gx1vvaPgH/QnA=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -42,7 +98,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		34z2YXOfbqrXyVf1qkEvwkFbsgw=
+		n9VLJ2lJoFUQEo0/ZgKpBmz7PIE=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -63,14 +119,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pWHBedPDdiz89ro7VX6Tn0XpNJAdDS3Wpu1j70HNFCw=
+			icx1uu4tNTZBTvkmwi4aSIy+GBTBZc8uTvXWJqrGGLw=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhC0Bf1O17czkmnHWMo+I40nKzi4eAD0ES+ffQelyTI=
+			ny4oOzGTEE6MMjyaM/zSyhFmbuv+UONdW4IXd32hhLo=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -87,6 +143,13 @@
 			aWcMuH53reJiu+W1DBN8muetd2sdtUinVVNjx4LkHXQ=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/F%20logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8YMUEoG0Jhy1Xbf5EBdCzsvMS8F28mX4jZpoXDrP1N8=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/Flag%20Logo.png</key>
 		<dict>
 			<key>hash2</key>
@@ -94,11 +157,95 @@
 			s4xAoGWZNrALMiktZvnbM5KAFBvcB65ge3JWeu5E0t0=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/Flag%20Logotype.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vCKVNbF/MHPV2uAusnFeri2gPcStuGR2R6p8Dy9Xhj0=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/Login%20Image.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			WkAPzT1ajqkBMYe4qZ5fZPEPFRUm15QUHLFRKxz1RJ4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/app_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KRQQz4BQUvuFhpH4VnfX663Dm4f0x5GCzJ3zpQhBR88=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/bien%20etre.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HOmytlZYGr1RuIgAgij+GeFOD932xDvAlFs+v70RmJA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/cards/avitane%20massage.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FG3g8WZzvmoVJr+aR80CxY214StnIkagpsTv8MpJrxs=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/cards/dragon%20sushi.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ceg92iRh28KsZavdROlm7RTCsJAFRqoFbz1cYTsGx/Y=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/cards/harmony%20hotel.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FmUt4Gw2i9yJejHRv58s9PdhBleOD87tcbiT4CkwGQ4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/cards/schwartz%20coffee.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bel7h+oSEpea1QbmqM4AvwEFwxr3iNyt6c0SADxdNLc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/event.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O+th9P6jtuEow1m1+I0gcng2l0UnDLsysM3rXM49cLA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/gaming.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aVvG+7wwLRn8zlBQDPJbZO+zri6tX6gBQb0RigqhII4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/hotels.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NA698yhMLPAlW20+/VccGcKy2c+nPOipdrAx/oz7FsQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/mode.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bfp5J26shHKZ7N+vQNZ7Fe8HuoZOMzFVbZ+InaYWnqw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/restauration.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1KPXpE1Ollccn4r17wx7zn0ZQsvKFDZRGU9Cg0zyaM8=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -119,7 +266,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9+atrluvp21aqxMIAZgUBJyrccJ7pemFBrQCUUNP4s=
+			j5S2INzT2toDZcP3WuoBKabDGAWdkZ/NJaFa8csNyKo=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
