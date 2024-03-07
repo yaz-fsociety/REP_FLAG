@@ -1,4 +1,3 @@
-// home_screen.dart
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flag/widgets/custom_app_bar.dart';
@@ -7,7 +6,7 @@ import 'package:flag/views/reservation_screen.dart';
 import 'package:flag/views/profile_screen.dart';
 import 'package:flag/views/message_screen.dart';
 import 'package:flag/widgets/categories_section.dart';
-import 'package:flag/widgets/offer_carousel.dart'; // Importez le nouveau widget
+import 'package:flag/widgets/offer_carousel.dart'; // Ensure this import is correct
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -53,14 +52,7 @@ class HomePageContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Données fictives pour le carousel
-    final List<Map<String, dynamic>> offers = [
-      {
-        'imageUrl': 'assets/images/cards/schwartz coffee.png', // Chemin vers votre image d'actif
-        'address': '123 Rue de la République, Paris',
-      },
-      // Ajoutez d'autres offres ici...
-    ];
+    // The list of offers is now managed inside OfferCarousel or via a global/shared state
 
     return ListView(
       children: <Widget>[
@@ -68,7 +60,8 @@ class HomePageContent extends StatelessWidget {
           padding: EdgeInsets.all(16.0),
           child: Text('Les meilleures adresses', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
         ),
-        OfferCarousel(offers: offers), // Utilisez le nouveau widget OfferCarousel ici
+        // Instantiate OfferCarousel without passing 'offers'
+        OfferCarousel(), // Assuming OfferCarousel is adjusted to work without 'offers'
         const Padding(
           padding: EdgeInsets.all(16.0),
           child: Text('Autour de moi', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
@@ -92,3 +85,4 @@ class HomePageContent extends StatelessWidget {
     );
   }
 }
+

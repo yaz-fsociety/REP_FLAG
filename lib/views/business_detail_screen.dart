@@ -1,8 +1,9 @@
-// file: business_detail_screen.dart
 import 'package:flutter/material.dart';
+import 'package:flag/views/business.dart';
+
 
 class BusinessDetailScreen extends StatefulWidget {
-  final Map<String, dynamic> businessInfo;
+  final Business businessInfo;
 
   const BusinessDetailScreen({Key? key, required this.businessInfo}) : super(key: key);
 
@@ -11,30 +12,48 @@ class BusinessDetailScreen extends StatefulWidget {
 }
 
 class _BusinessDetailScreenState extends State<BusinessDetailScreen> {
-  DateTime selectedDate = DateTime.now();
-  TimeOfDay selectedTime = TimeOfDay.now();
-
-  // You will need to implement methods for choosing a date and time
-
   @override
   Widget build(BuildContext context) {
+    final businessInfo = widget.businessInfo;
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.businessInfo['title']),
+        title: Text(businessInfo.title),
       ),
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(widget.businessInfo['imageUrl']),
-            Text(widget.businessInfo['address']),
-            // Add social networks and other business info here
-            // Add a date and time picker here
-            ElevatedButton(
-              onPressed: () {
-                // Implement reservation logic
-                // Add the reservation to a global state or pass back to the reservation screen
-              },
-              child: Text('Make a Reservation'),
+            Image.asset(businessInfo.imageUrl, height: 250, width: double.infinity, fit: BoxFit.cover),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Adresse: ${businessInfo.address}', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                  SizedBox(height: 10),
+                  Text('Description: ${businessInfo.offerDescription}', style: TextStyle(fontSize: 16)),
+                  SizedBox(height: 10),
+                  if (businessInfo.keywords != null) 
+                    Wrap(
+                      spacing: 8.0,
+                      children: businessInfo.keywords!.map((keyword) => Chip(label: Text(keyword))).toList(),
+                    ),
+                  SizedBox(height: 10),
+                  if (businessInfo.instagramUsername != null)
+                    Text('Instagram: ${businessInfo.instagramUsername}'),
+                  if (businessInfo.tiktokUsername != null)
+                    Text('TikTok: ${businessInfo.tiktokUsername}'),
+                  SizedBox(height: 10),
+                  // Display content images if available
+                  if (businessInfo.contentImages != null)
+                    for (var imagePath in businessInfo.contentImages!)
+                      Container(
+                        margin: EdgeInsets.only(bottom: 8.0),
+                        child: Image.asset(imagePath, width: double.infinity, fit: BoxFit.cover),
+                      ),
+                ],
+              ),
             ),
           ],
         ),
@@ -42,3 +61,7 @@ class _BusinessDetailScreenState extends State<BusinessDetailScreen> {
     );
   }
 }
+
+
+
+

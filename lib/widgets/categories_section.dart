@@ -38,7 +38,7 @@ class CategoriesSection extends StatelessWidget {
             fit: BoxFit.cover, // Cover the entire space of the container
           ),
           Container(
-            color: Colors.black.withOpacity(0.5), // Semi-transparent overlay
+            color: Colors.black.withOpacity(0.2), // Semi-transparent overlay
             alignment: Alignment.center,
             child: Text(
               title,
